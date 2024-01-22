@@ -1,0 +1,24 @@
+{
+    "name": "leoch/busca-cep",
+    "description": "Search for CEP (Brazilian postal code)",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leandro Chaves",
+            "email": "leochabu@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "leoch\\Buscacep\\":"src/"
+        }
+    }
+}
